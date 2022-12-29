@@ -3,3 +3,8 @@
 
     https://jupyterlab.readthedocs.io/en/stable/developer/css.html
 */
+
+.jl-ReactAppWidget{
+    height: max-content;
+    width: max-content;
+}

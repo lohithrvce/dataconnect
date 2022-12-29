@@ -390,6 +390,36 @@
     "@lumino/widgets" "^1.33.0"
     yjs "^13.5.17"
 
+"@jupyterlab/launcher@^3.5.2":
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/launcher/-/launcher-3.5.2.tgz#9f6d274c7b54400e1a8c5a766ae5b50775535a33"
+  integrity sha512-GKlNpXWRgPcqkcduL+W73ImYN5PLfAmTY4JqPI83ShHijUxQeQ+CVQRtxLqcmm7Y5+fSJECaqdzNzfvRRdWsZA==
+  dependencies:
+    "@jupyterlab/apputils" "^3.5.2"
+    "@jupyterlab/translation" "^3.5.2"
+    "@jupyterlab/ui-components" "^3.5.2"
+    "@lumino/algorithm" "^1.9.0"
+    "@lumino/commands" "^1.19.0"
+    "@lumino/coreutils" "^1.11.0"
+    "@lumino/disposable" "^1.10.0"
+    "@lumino/properties" "^1.8.0"
+    "@lumino/widgets" "^1.33.0"
+    react "^17.0.1"
+
+"@jupyterlab/mainmenu@^3.5.2":
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/mainmenu/-/mainmenu-3.5.2.tgz#c67f7ca45c9f08bafdc8a5d6141585aa02b39c45"
+  integrity sha512-iUp7++q8MDkuHNdWe5MTJixSdVSWL4dR/PflfSML51Oh99M/ATqqtRzaX43HU714IRF9QLRgYl6l/jSFVZ/ZUw==
+  dependencies:
+    "@jupyterlab/apputils" "^3.5.2"
+    "@jupyterlab/services" "^6.5.2"
+    "@jupyterlab/translation" "^3.5.2"
+    "@jupyterlab/ui-components" "^3.5.2"
+    "@lumino/algorithm" "^1.9.0"
+    "@lumino/commands" "^1.19.0"
+    "@lumino/coreutils" "^1.11.0"
+    "@lumino/widgets" "^1.33.0"
+
 "@jupyterlab/nbformat@^3.5.2":
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/@jupyterlab/nbformat/-/nbformat-3.5.2.tgz#df8c2dbc8d81543be72519730c9aa0aad7402314"
