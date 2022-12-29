@@ -3,3 +3,48 @@
 
     https://jupyterlab.readthedocs.io/en/stable/developer/css.html
 */
+
+
+.Header {
+    font-size: large;
+}
+
+.data-connector-form {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.SpanInput{
+    width: auto;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.SpanInput span {
+    font: bold;
+    margin-right: 10px;
+}
+.SpanInput input {
+    border-radius: 5px;
+}
+
+.SpanSelect {
+    width: auto;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.SpanSelect span {
+    font: bold;
+}
+.SpanSelect select {
+    padding: 10px;
+}
