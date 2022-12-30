@@ -7,6 +7,7 @@
 
 .Header {
     font-size: large;
+    font-weight: bold;
 }
 
 .data-connector-form {
@@ -44,7 +45,4 @@
 
 .SpanSelect span {
     font: bold;
-}
-.SpanSelect select {
-    padding: 10px;
 }
