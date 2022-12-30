@@ -46,5 +46,7 @@
     font: bold;
 }
 .SpanSelect select {
-    padding: 10px;
+    padding: 0.2em;
+    width: 12.5em;
+    border-radius: 5px;
 }
