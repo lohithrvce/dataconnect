@@ -51,19 +51,34 @@
     border-radius: 5px;
 }
 
+
+
 .container {
     display: flex;
-    margin: auto;
+    margin: auto ;
+    width: 100px;
+    margin-top:50px;
+}
+
+.connector-container {
+    flex-direction: column;
     width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+
 }
 
 .small-container {
   display:flex;
   flex-direction:column;
-  margin-right:10px
+  margin-right:10px;
+  align-items:center;
 }
 
 .container button {
+  font-size:2em;
   background-color:#3C79F5;
   color:#fff;
   padding:10px 20px;
@@ -74,3 +89,27 @@
 .container button:hover {
   background-color:#6C00FF
 }
+
+.list-container {
+    display:flex;
+    width:80%;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border: 3px solid rgba(0,0,0,.1);
+    border-radius:10px;
+    margin-top: 10px;
+  }
+  
+  .text-arrow  p{
+    display:inline;
+    margin-left:190px;
+    font-weight:bold;
+  }
+  
+  .list-container:hover {
+    border: 3px solid blue;
+  }
+  .list-container span p:hover {
+    color:blue;
+  }
+

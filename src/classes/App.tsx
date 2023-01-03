@@ -1,7 +1,7 @@
 import React from 'react'
 import { ReactWidget } from '@jupyterlab/apputils'
-import { AppComponent } from '../components/AppComponent'
-// import {Home} from '../components/Home'
+// import { AppComponent } from '../components/AppComponent'
+import {ConnectorSelect} from '../components/ConnectorSelect'
 import { EXTENSION_CSS_CLASSNAME } from '../enums'
 
 export class ReactAppWidget extends ReactWidget {
@@ -12,7 +12,7 @@ export class ReactAppWidget extends ReactWidget {
 
   render(): JSX.Element {
     return (
-        <AppComponent />
+        <ConnectorSelect />
     )
   }
 }
