@@ -50,3 +50,27 @@
     width: 12.5em;
     border-radius: 5px;
 }
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.small-container {
+  display:flex;
+  flex-direction:column;
+  margin-right:10px
+}
+
+.container button {
+  background-color:#3C79F5;
+  color:#fff;
+  padding:10px 20px;
+  border:none;
+  border-radius:10px
+}
+
+.container button:hover {
+  background-color:#6C00FF
+}
