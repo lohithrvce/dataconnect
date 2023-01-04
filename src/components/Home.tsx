@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { EXTENSION_CSS_CLASSNAME } from '../enums';
 import { TabContext } from '../context/tabContext';
+const EXTENSION_CSS_CLASSNAME = 'jl-ReactAppWidget';
 
 export const Home = (): JSX.Element => {
   const tabContext = useContext(TabContext);
