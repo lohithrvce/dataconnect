@@ -1,6 +1,6 @@
 import React from 'react';
-import { EXTENSION_CSS_CLASSNAME } from '../enums';
 
+const EXTENSION_CSS_CLASSNAME = 'jl-ReactAppWidget'
 
 export const ConnectorSelect = (): JSX.Element => {
 
