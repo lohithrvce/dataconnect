@@ -63,6 +63,8 @@
 
 .connector-container {
     flex-direction: column;
+    height: 400px;
+    overflow-y: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;

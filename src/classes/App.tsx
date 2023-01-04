@@ -1,18 +1,24 @@
-import React from 'react'
-import { ReactWidget } from '@jupyterlab/apputils'
-// import { AppComponent } from '../components/AppComponent'
-import {ConnectorSelect} from '../components/ConnectorSelect'
-import { EXTENSION_CSS_CLASSNAME } from '../enums'
+import React from 'react';
+import { ReactWidget } from '@jupyterlab/apputils';
+import { Host } from '../components/Host';
+import { EXTENSION_CSS_CLASSNAME } from '../enums';
+import { TabContext } from '../context/tabContext';
 
 export class ReactAppWidget extends ReactWidget {
   constructor() {
-    super()
-    this.addClass(EXTENSION_CSS_CLASSNAME)
+    super();
+    this.addClass(EXTENSION_CSS_CLASSNAME);
+
+    // this.state = {
+    //   tab: 0
+    // };
   }
 
   render(): JSX.Element {
     return (
-        <ConnectorSelect />
-    )
+      <TabContext.Provider value={1}>
+        <Host />
+      </TabContext.Provider>
+    );
   }
 }
