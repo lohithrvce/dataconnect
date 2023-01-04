@@ -1,8 +1,8 @@
 import React from 'react'
 import { ReactWidget } from '@jupyterlab/apputils'
-import { AppComponent } from '../components/AppComponent'
+import { SidePanel } from '../components/SidePanel'
 
-export class ReactAppWidget extends ReactWidget {
+export class ReactSidePanelWidget extends ReactWidget {
   constructor() {
     super()
     this.addClass('jl-ReactAppWidget')
@@ -10,7 +10,7 @@ export class ReactAppWidget extends ReactWidget {
 
   render(): JSX.Element {
     return (
-        <AppComponent />
+        <SidePanel />
     )
   }
 }
