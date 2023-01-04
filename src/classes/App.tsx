@@ -11,7 +11,10 @@ export class ReactAppWidget extends ReactWidget {
 
   render(): JSX.Element {
     return (
-        <AppComponent />
+        <div>
+            <AppComponent />
+        </div>
+        
     )
   }
 }
