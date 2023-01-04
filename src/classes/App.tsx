@@ -1,6 +1,7 @@
 import React from 'react'
 import { ReactWidget } from '@jupyterlab/apputils'
-import { AppComponent } from '../components/AppComponent'
+// import { AppComponent } from '../components/AppComponent'
+import {ConnectorSelect} from '../components/ConnectorSelect'
 
 export class ReactAppWidget extends ReactWidget {
   constructor() {
@@ -10,7 +11,7 @@ export class ReactAppWidget extends ReactWidget {
 
   render(): JSX.Element {
     return (
-        <AppComponent />
+        <ConnectorSelect />
     )
   }
 }
