@@ -1,6 +1,5 @@
 import { JupyterFrontEndPlugin, JupyterFrontEnd, ILayoutRestorer } from '@jupyterlab/application'
 import { ICommandPalette, MainAreaWidget, WidgetTracker  } from '@jupyterlab/apputils';
-import { IMainMenu } from '@jupyterlab/mainmenu';
 import { ReactAppWidget } from './classes/App';
 import { ReactSidePanelWidget } from './classes/SidePanel';
 import { dbIcon } from './style/icons';
@@ -10,7 +9,7 @@ const EXTENSION_NAME = 'Data Connector'
 const OPEN_COMMAND = 'jle:open'
 
 
-const activate = (app: JupyterFrontEnd, palette: ICommandPalette, restorer: ILayoutRestorer, mainMenu: IMainMenu): void => {
+const activate = (app: JupyterFrontEnd, palette: ICommandPalette, restorer: ILayoutRestorer): void => {
   console.log(`JupyterLab extension ${EXTENSION_ID} is activated!`)
 
   const tracker = new WidgetTracker<MainAreaWidget<ReactAppWidget>>({
@@ -73,7 +72,7 @@ const activate = (app: JupyterFrontEnd, palette: ICommandPalette, restorer: ILay
 const extension: JupyterFrontEndPlugin<void> = {
   id: EXTENSION_ID,
   autoStart: true,
-  requires: [ICommandPalette, ILayoutRestorer, IMainMenu],
+  requires: [ICommandPalette, ILayoutRestorer],
   activate,
 }
 
